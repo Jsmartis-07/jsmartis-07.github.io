@@ -10,11 +10,8 @@
     #intro{
     padding-left: 10px;
     }
-#into ul li{
-  padding-left: 30px;
 
-}
-#sub1{
+#sub3{
   
 }
     header{
@@ -47,7 +44,7 @@
     
     .mainheader nav a{
      text-decoration: none;
-     color: black;
+     color: red;
      text-transform: uppercase;
     }
     
@@ -163,12 +160,15 @@ body{
   flex-direction: column;
   min-height: 100vh;
 }
-footer{
+.contacts{
    background-color: #000000ff;
    position: relative;
    width: 100%;
    min-height: 350px;
-   padding: 3rem 1rem;
+   margin-top: 2%;
+   padding-top: 2%;
+   padding-bottom:auto;
+
 }
 .container {
   max-width: 1140px;
@@ -308,3 +308,14 @@ footer{
 }
 
 /*****now*******/
+.right-img{
+  margin-left: 1280px;
+  margin-top: -150px;
+}
+
+li{
+  margin-left: 2%;
+}
+p{
+  margin-left: 2%;
+}
