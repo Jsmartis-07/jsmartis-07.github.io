@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title></title>
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content= 
+
+        "width=device-width, initial-scale=1.0">
+ <title>FOSS</title>
  <link rel="stylesheet" type="text/css" href="style.css">
  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
  <link type="image/png" sizes="96x96" rel="icon" href="FAVICON.png">
 </head>
 <body>
+    <style>
+		button{
+			cursor: pointer;
+			border: 1px solid #555;
+			text-align: center;
+			padding: 5px;
+			margin-left: 8px;
+		}
+		.dark{
+			background-color: #222;
+			color: #e6e6e6;
+		}
+	</style>
+    
+    <script>
+		function myFunction() {
+		var element = document.body;
+		element.classList.toggle("dark");
+		}
+	</script>
+    
 <header>
  <div class="mainheader">
   <div class="logo">
@@ -20,7 +46,7 @@
   </nav>
 
   <div class="menubtn">
-   <button>Contact us</button>
+    <button onclick="myFunction()">Switch mode</button>
   </div>
  </div>
  <main>
