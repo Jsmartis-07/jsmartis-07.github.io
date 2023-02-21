@@ -4,7 +4,19 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     }
-    
+    #headi{
+      font-size:larger;
+    }
+    #intro{
+    padding-left: 10px;
+    }
+#into ul li{
+  padding-left: 30px;
+
+}
+#sub1{
+  
+}
     header{
      width: 100%;
      height: 50vh;
@@ -63,7 +75,7 @@
     main .right-sec{
      padding-right: 70px;
     }
-    
+
     main .left-sec{
      padding-left: 20px;
     }
